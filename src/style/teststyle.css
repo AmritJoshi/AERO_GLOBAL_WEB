@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.study_details{
+    margin-top: 30px;
+}
+
+.study_details h3{
+    align-items: center;
+}
+.study_class{
+    color: white;
+}
+.title{
+    align-items: flex-start;
+
+}
+.study_class
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+.study_class h3{
+    margin-left: 20%;
+
+}
+
+.rest_link{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80%;
+}

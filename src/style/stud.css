@@ -1,0 +1,17 @@
+.countries{
+    margin-left: 80%;
+    color: white;
+}
+
+p{
+    margin-top: 30px;
+}
+
+li{
+    margin-top: 3px;
+}
+.desc{
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}

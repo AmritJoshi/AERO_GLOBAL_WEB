@@ -1,44 +1,46 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
-const Nav=()=> {
+import {NavDropdown,Navbar,Nav,Container} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import '../style/navbar.css';
+const Navigation=()=> {
   return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+      <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand><Link to="/" style={{ textDecoration: 'none' ,color:'black'}}>aeroglobalconsultancy</Link></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link><Link to='/' style={{ textDecoration: 'none' ,color:'black'}}>Home</Link></Nav.Link>
+            <Nav.Link><Link to="/Blog" style={{ textDecoration: 'none' ,color:'black'}}>Blog</Link></Nav.Link>
+            <NavDropdown title="About" id="basic-nav-dropdown">
+              <NavDropdown.Item><Link to='/AboutUs' style={{ textDecoration: 'none' ,color:'black'}}>About</Link></NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/Appointment" style={{ textDecoration: 'none' ,color:'black'}}>Appointment</Link>
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Study Destination" id="basic-nav-dropdown">
+              <NavDropdown.Item><Link to='/Study_in_US' style={{ textDecoration: 'none' ,color:'black'}}>USA</Link></NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/Study_in_AUS" style={{ textDecoration: 'none' ,color:'black'}}>AUSTRALIA</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item><Link to="/Study_in_CANADA" style={{ textDecoration: 'none' ,color:'black'}}>CANADA</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/Study_in_UK" style={{ textDecoration: 'none' ,color:'black'}}>UK</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/Study_in_EU" style={{ textDecoration: 'none' ,color:'black'}}>EUROPE</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/Study_in_DEN" style={{ textDecoration: 'none' ,color:'black'}}>DENMARK</Link></NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Test Preparation" id="basic-nav-dropdown">
+              <NavDropdown.Item><Link to="/Ielts" style={{ textDecoration: 'none' ,color:'black'}}>IELTS</Link></NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/Pte" style={{ textDecoration: 'none' ,color:'black'}}>PTE</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item><Link to="/Toefl" style={{ textDecoration: 'none' ,color:'black'}}>TOEFL</Link></NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 
-export default Nav;
+export default Navigation;

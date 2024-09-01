@@ -11,6 +11,11 @@ import PTE from '../utils/PTE.jpeg';
 import Toefl from '../utils/TOEFL.jpeg';
 import Ielts from '../utils/IELTS.jpeg';
 import GRAD from '../utils/GRAD.jpeg';
+import YoutubeEmbed from './Youtube_vid.components';
+import '../style/Youtube_vid.css';
+import { Link } from 'react-router-dom';
+// import Googlemap from './Googlemap.components';
+
 const Home = ()=>{
   return (
     <div>
@@ -32,30 +37,30 @@ const Home = ()=>{
             
             <div>
                 <img src={USA} alt="USA" className='USA'/>
-                <h1><a href='#'>USA</a></h1>
+                <h1><Link to='/Study_in_US'>USA</Link></h1>
                 </div>
             <div>
                 <img src={Australia} alt="AUSTRALIA" className='AUSTRALIA'/>
-                <h1><a href='#'>AUSTRALIA</a></h1>
+                <h1><Link to="/Study_in_AUS">AUSTRALIA</Link></h1>
             </div>
             <div>
                 <img src={CANADA} alt="CANADA" className='CANADA'/>
-                <h1><a href='#'>CANADA</a></h1>
+                <h1><Link to="Study_in_CANADA">CANADA</Link></h1>
             </div>
         </div>
 
         <div className='snd_countrys'>
             <div>
                 <img src={UK} alt="UK" className='UK'/>
-                <h1><a href='#'>UK </a></h1>
+                <h1><Link to="/Study_in_UK">UK</Link></h1>
         </div>
         <div>
             <img src={Denmark} alt="DENMARK" className='DENMARK'/>
-            <h1><a href='#'>DENMARK</a></h1>
+            <h1><Link to="/Study_in_DEN">DENMARK</Link></h1>
             </div>
             <div>
                 <img src={Europe} alt="EUROPE" className='EUROPE'/>
-                <h1><a href='#'>EUROPE</a></h1>
+                <h1><Link to="/Study_in_EU">EUROPE</Link></h1>
              </div>
         </div>
         <div>
@@ -70,15 +75,15 @@ const Home = ()=>{
       
             <div>
                 <img src={Ielts} alt="IELTS" className='IELTS'/>
-                <h1><a href='#'>IELTS</a></h1>
+                <h1><Link to="/Ielts">IELTS</Link></h1>
                 </div>
             <div>
                 <img src={PTE} alt="PTE" className='PTE'/>
-                <h1><a href='#'>PTE</a></h1>
+                <h1><Link to="/Pte">PTE</Link></h1>
             </div>
             <div>
                 <img src={Toefl} alt="TOEFL" className='TOEFL'/>
-                <h1><a href='#'>TOEFL</a></h1>
+                <h1><Link to="/Toefl">TOEFL</Link></h1>
             
         </div>
         </div>
@@ -104,7 +109,13 @@ const Home = ()=>{
         The opportunity to travel worldwide and gather priceless memories became possible because I took my first steps toward my ambitions. My ambition to complete my studies, explore different places, cultures, & countries, and achieve my academic as well as financial goals has driven my journey.
         </p>
     </div>
-
+    <div className='Youtube'>
+    <YoutubeEmbed embedId="wFr_G4jxIBw" />
+    <p>Tivoli Gardens in Copenhagen is a magical amusement park and pleasure garden, enchanting visitors since 1843. Located in the heart of the city, Tivoli blends charming vintage rides, modern attractions, and beautiful gardens. It's famous for its wooden roller coaster, romantic boat rides, and vibrant entertainment, including concerts and pantomime theater. Seasonal events, such as Halloween and Christmas markets, add to its charm. Tivoli's stunning architecture, colorful lights, and delightful dining options create a unique, fairy-tale atmosphere. A visit to Tivoli Gardens offers a perfect mix of nostalgia, excitement, and cultural experiences, making it a must-see destination in Copenhagen.</p>
+    </div>
+    {/* <div>
+        <Googlemap/>
+    </div> */}
     <div className='consols'>
         <h1>OUR CONSULTANTS</h1>
     <div className="first_consols">

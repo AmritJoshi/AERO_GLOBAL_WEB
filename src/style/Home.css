@@ -139,6 +139,11 @@
     list-style: none;
     padding: 4px;
 }
+.Youtube{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+}
 
 /*The desktop-first pre-defined media queries:*/
 /* 2xl */
