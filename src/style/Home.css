@@ -221,6 +221,14 @@
         margin-left: 70px;
         margin-top: 30px;
     }
+    .grad_page h2{
+        width: 400px;
+        margin-left: 30px;
+    }
+    .grad_page p{
+        width: 400px;
+        margin-left: 30px;
+    }
 }
 
 /* xs */
@@ -255,5 +263,13 @@
     .embed{
         margin-left: 20px;
         margin-top: 30px;
+    }
+    .grad_page h2{
+        width: 400px;
+        margin-left: 30px;
+    }
+    .grad_page p{
+        width: 400px;
+        margin-left: 30px;
     }
 }
