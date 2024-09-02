@@ -1,0 +1,50 @@
+*{
+    margin:0;
+  }
+  ul{
+    margin:0;
+    padding:0;
+  }
+  .SocialMedia{
+    background-color:#425061;
+    margin-top:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .Details{
+    background-color:rgb(31, 38, 46);
+    text-align:center;
+    color:#fff;
+    top:0;
+    
+  }
+  
+  /*The desktop-first pre-defined media queries:*/
+  /* 2xl */
+  @media (max-width: 1536px) {}
+  
+  /* xl */
+  @media (max-width: 1280px) {}
+  
+  /* lg */
+  @media (max-width: 1024px) {}
+  
+  /* md */
+  @media (max-width: 768px) {}
+  
+  /* sm */
+  @media (max-width: 640px) {}
+  
+  /* xs */
+  @media (max-width: 475px) {
+    *{
+      margin:0;
+    }
+    ul{
+      margin:0;
+      padding:0;
+    }
+  }

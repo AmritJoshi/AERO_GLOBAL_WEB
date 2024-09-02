@@ -15,6 +15,7 @@ import { BrowserRouter as Router ,Route, Routes} from 'react-router-dom';
 import Std_UK from './components/Stud_UK.components';
 import Std_DEN from './components/Stud_DEN.components';
 import Appointment from './components/Appointment.components';
+import Footer from './components/footer.component';
 
 function App() {
   return (
@@ -37,7 +38,9 @@ function App() {
       <Route path='/Toefl' element={<Toefl/>}/>
       <Route path='/Pte' element={<Pte/>}/>
       </Routes>
+      <Footer/>
     </div>
+
     </Router>
   );
 }

@@ -1,0 +1,63 @@
+*{
+    align-content: center;
+    justify-content: center;
+}
+.image_style img{
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+.box{
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box p{
+    text-align: center;
+    font-weight: bold;
+    max-width: 400px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+/*The desktop-first pre-defined media queries:*/
+/* 2xl */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {
+    .box p{
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+        margin-left: 120px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .box p{
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+        margin-left: 80px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .box p{
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+        margin-left: 60px;
+    }
+}

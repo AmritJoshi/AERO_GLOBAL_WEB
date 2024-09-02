@@ -106,26 +106,27 @@
     margin-left: 30px;
 }
 .consols{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-top: 30px;
+    margin-left: 10px;
 }
 .consols h1{
     text-align: center;
+    
 }
 .second_consols div{
     margin: 0;
 }
 .first_consols{
-    display: flex;
-    flex-direction: row;
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
     justify-content: center;
     justify-content: space-around;
 }
 .second_consols{
-    display: flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
     justify-content: space-around;
     margin-top: 10px;
 }
@@ -140,11 +141,18 @@
     padding: 4px;
 }
 .Youtube{
-    display: inline-block;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
+.embed{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.parma{
+    margin-top: 10px;
+    margin-left: 20px;
+}
 /*The desktop-first pre-defined media queries:*/
 /* 2xl */
 @media (max-width: 1536px) {}
@@ -170,7 +178,15 @@
         display: flex;
         flex-direction: column;
     }
-
+    .Youtube{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .embed{
+        margin-left: 150px;
+        margin-top: 30px;
+    }
 }
 
 /* sm */
@@ -196,6 +212,15 @@
         display: flex;
         flex-direction: column;
     }
+    .Youtube{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .embed{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
 }
 
 /* xs */
@@ -220,5 +245,15 @@
     .second_consols{
         display: flex;
         flex-direction: column;
+    }
+
+    .Youtube{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .embed{
+        margin-left: 70px;
+        margin-top: 30px;
     }
 }

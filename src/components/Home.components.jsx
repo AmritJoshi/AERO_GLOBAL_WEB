@@ -14,6 +14,7 @@ import GRAD from '../utils/GRAD.jpeg';
 import YoutubeEmbed from './Youtube_vid.components';
 import '../style/Youtube_vid.css';
 import { Link } from 'react-router-dom';
+
 // import Googlemap from './Googlemap.components';
 
 const Home = ()=>{
@@ -110,8 +111,12 @@ const Home = ()=>{
         </p>
     </div>
     <div className='Youtube'>
+    <div className='embed'>
     <YoutubeEmbed embedId="wFr_G4jxIBw" />
+    </div>
+    <div className='parma'>
     <p>Tivoli Gardens in Copenhagen is a magical amusement park and pleasure garden, enchanting visitors since 1843. Located in the heart of the city, Tivoli blends charming vintage rides, modern attractions, and beautiful gardens. It's famous for its wooden roller coaster, romantic boat rides, and vibrant entertainment, including concerts and pantomime theater. Seasonal events, such as Halloween and Christmas markets, add to its charm. Tivoli's stunning architecture, colorful lights, and delightful dining options create a unique, fairy-tale atmosphere. A visit to Tivoli Gardens offers a perfect mix of nostalgia, excitement, and cultural experiences, making it a must-see destination in Copenhagen.</p>
+    </div>
     </div>
     {/* <div>
         <Googlemap/>
@@ -120,21 +125,21 @@ const Home = ()=>{
         <h1>OUR CONSULTANTS</h1>
     <div className="first_consols">
         <ul>
-        <li>Nepal</li>
+        <li><strong>Nepal</strong></li>
         <li>Suman Kunwar</li>
         <li>4th Floor, IT Plaza, Kamaladi 28, Kathmandu</li>
         <li>Email:- kunwarsuman109@gmail.com</li>
         <li>Phone:- +977-9704415741, +977-9851317221</li>
         </ul>
         <ul>
-        <li>USA</li>
+        <li><strong>USA</strong></li>
         <li>Sanjiv Thapa</li>
         <li>8237 51st Ave, Elmhurst, NY 11373,</li>
         <li>Email:- jdtnepal2015@gmail.com</li>
         <li>Phone:- +1 4787-772-746</li>
         </ul>
         <ul>
-        <li>Netherland</li>
+        <li><strong>Netherland</strong></li>
         <li>Puja Sapkota</li>
         <li>22-53, Eindhoven, 5611 Netherland</li>
         <li>Email:- sapkotapuja34@gmail.com</li>
@@ -143,21 +148,21 @@ const Home = ()=>{
     </div>
     <div className="second_consols">
     <ul>
-        <li>Czech Republic</li>
+        <li><strong>Czech Republic</strong></li>
         <li>Yogesh Joshi</li>
         <li>Email:- joshiyogesh144@gmail.com</li>
-        <li>Linkedin:- linkedin.com/in/yogesh-joshi-7a 0b3420b</li>
+        <li>Linkedin:<a href='http://linkedin.com/in/yogesh-joshi-7a0b3420b' rel="noopener noreferrer" target='_blank'> Yogesh Joshi</a></li>
         <li>WhatsApp: +977-9848738992</li>
         </ul>
         <ul>
-        <li>Australia</li>
+        <li><strong>Australia</strong></li>
         <li>Niranjan Thapa</li>
         <li>5\60 central avenue moonah, Tasmania</li>
         <li>Email:- nirzn7@gmail.com</li>
         <li>Phone:- +61452424292</li>
         </ul>
         <ul>
-        <li>Denmark</li>
+        <li><strong>Denmark</strong></li>
         <li>Pawan Ranabhat</li>
         <li>Åfløjen 34, 2700 Copenhagen</li>
         <li>Email:- rbpawan7@gmail.com</li>

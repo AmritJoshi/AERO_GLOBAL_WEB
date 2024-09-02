@@ -1,0 +1,108 @@
+.about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Aim{
+    color: #990000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Aim h5{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: start;
+    margin-top: 30px;
+}
+
+
+.Aim p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: start;
+}
+.lapsandgrads{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.lapsandgrads img{
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+}
+.whoarewe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    color: #1c4587;
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+/*The desktop-first pre-defined media queries:*/
+/* 2xl */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {
+    .lapsandgrads{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .lapsandgrads{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .stories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .lapsandgrads{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .stories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

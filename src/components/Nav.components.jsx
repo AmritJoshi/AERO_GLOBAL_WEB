@@ -3,11 +3,20 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {NavDropdown,Navbar,Nav,Container} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../style/navbar.css';
+import logo from '../utils/logo1.png';
 const Navigation=()=> {
   return (
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand><Link to="/" style={{ textDecoration: 'none' ,color:'black'}}>aeroglobalconsultancy</Link></Navbar.Brand>
+        <Navbar.Brand><Link to="/" style={{ textDecoration: 'none' ,color:'black'}}>
+        <img
+              src={logo}
+              width="60"
+              height="40"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+            Aeroglobalconsultancy</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
