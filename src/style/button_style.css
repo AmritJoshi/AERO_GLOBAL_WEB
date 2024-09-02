@@ -5,3 +5,16 @@
     background-color: #000080;
     color: #ffffff;
 }
+
+@media (max-width: 640px) {
+    .button{
+        width: 300px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .button{
+        width: 300px;
+    }
+}
