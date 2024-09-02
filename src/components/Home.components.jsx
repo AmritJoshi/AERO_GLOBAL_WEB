@@ -90,7 +90,7 @@ const Home = ()=>{
         </div>
     </div >
 
-    <div className='grad_page' style={ {  width:'100vw',height:'100vh',backgroundSize:'cover',backgroundRepeat:'no-repeat',justifyContent:'center',alignContent:'center', backgroundImage:`url(${GRAD})` }}>
+    <div className='grad_page' style={ { paddingTop:'20px',paddingBottom:'50px',backgroundSize:'cover',backgroundRepeat:'no-repeat',justifyContent:'center',alignContent:'center', backgroundImage:`url(${GRAD})` }}>
         <h2>
         MY JOURNEY FROM NEPAL TO EUROPE AND USA
         </h2>
