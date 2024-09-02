@@ -8,11 +8,11 @@ const Std_DEN=()=>{
     <div>
     <div style={ {  width:'100vw',height:'100vh',backgroundSize:'cover',backgroundRepeat:'no-repeat',justifyContent:'center',alignContent:'center', backgroundImage:`url(${DENFLAG})` }}>
       <div className='countries' >
-      <h3><Link to="/Study_in_US">USA</Link></h3>
-      <h3><Link to="/Study_in_AUS">AUSTRALIA</Link></h3>
-      <h3><Link to="/Study_in_UK">UK</Link></h3>
-      <h3><Link to="/Study_in_CANADA">CANADA</Link></h3>
-      <h3><Link to="/Study_in_EU">EUROPE</Link></h3>
+      <h3><Link to="/Study_in_US" style={{color:'#000000'}}>USA</Link></h3>
+      <h3><Link to="/Study_in_AUS" style={{color:'#000000'}}>AUSTRALIA</Link></h3>
+      <h3><Link to="/Study_in_UK" style={{color:'#000000'}}>UK</Link></h3>
+      <h3><Link to="/Study_in_CANADA" style={{color:'#000000'}}>CANADA</Link></h3>
+      <h3><Link to="/Study_in_EU" style={{color:'#000000'}}>EUROPE</Link></h3>
       </div>
       </div>
 

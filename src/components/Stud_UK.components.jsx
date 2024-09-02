@@ -8,11 +8,11 @@ const Std_UK=()=>{
     <div>
     <div style={ {  width:'100vw',height:'100vh',backgroundSize:'cover',backgroundRepeat:'no-repeat',justifyContent:'center',alignContent:'center', backgroundImage:`url(${UKFLAG})` }}>
       <div className='countries' >
-      <h3><Link to='/Study_in_US' style={{color:'white'}}>USA</Link></h3>
-      <h3><Link to="/Study_in_AUS" style={{color:'white'}}>AUSTRALIA</Link></h3>
-      <h3><Link to="/Study_in_CANADA" style={{color:'white'}}>CANADA</Link></h3>
-      <h3><Link to="/Study_in_DEN" style={{color:'white'}}>DENMARK</Link></h3>
-      <h3><Link to="/Study_in_EU" style={{color:'white'}}>EUROPE</Link></h3>
+      <h3><Link to='/Study_in_US' style={{color:'#000000'}}>USA</Link></h3>
+      <h3><Link to="/Study_in_AUS" style={{color:'#000000'}}>AUSTRALIA</Link></h3>
+      <h3><Link to="/Study_in_CANADA" style={{color:'#000000'}}>CANADA</Link></h3>
+      <h3><Link to="/Study_in_DEN" style={{color:'#000000'}}>DENMARK</Link></h3>
+      <h3><Link to="/Study_in_EU" style={{color:'#000000'}}>EUROPE</Link></h3>
       </div>
       </div>
 

@@ -50,6 +50,11 @@
         justify-content: center;
         margin-left: 80px;
     }
+    .image_style img{
+        width: 400px;
+        height: 400px;
+        margin: 15%;
+    }
 }
 
 /* xs */
@@ -59,5 +64,10 @@
         font-weight: bold;
         justify-content: center;
         margin-left: 60px;
+    }
+    .image_style img{
+        width: 400px;
+        height: 400px;
+        margin-left: 10%;
     }
 }

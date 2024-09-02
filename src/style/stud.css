@@ -1,6 +1,6 @@
 .countries{
     margin-left: 80%;
-    color: white;
+    color: #808080;
 }
 
 p{
@@ -14,4 +14,24 @@ li{
     font-weight: bold;
     color: red;
     font-size: 20px;
+}
+@media (max-width: 768px) {
+    .countries{
+        margin-left: 70%;
+        color: #808080;
+    }
+}
+@media (max-width: 640px) {
+    .countries{
+        margin-left: 70%;
+        color: #808080;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .countries{
+        margin-left: 50%;
+        color: #808080;
+    }
 }

@@ -91,6 +91,11 @@
         flex-direction: column;
         justify-content: center;
     }
+    .lapsandgrads img{
+        width: 400px;
+        height: 400px;
+        margin-left: 15%;
+    }
 }
 
 /* xs */
@@ -104,5 +109,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .lapsandgrads img{
+        width: 400px;
+        height: 400px;
+        margin-left: 10%;
     }
 }
