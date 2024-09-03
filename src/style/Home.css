@@ -272,4 +272,15 @@
         width: 350px;
         margin-left: 10px;
     }
+    .countrys img{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .test img{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
 }
