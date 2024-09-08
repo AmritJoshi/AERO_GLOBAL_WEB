@@ -6,9 +6,11 @@ import picture3 from '../utils/picture3.jpeg';
 import picture4 from '../utils/picture4.jpeg';
 import Neatherland from '../utils/neatherlands.jpg';
 import Sanj from '../utils/Sanj.jpeg';
+import YogeshJoshi from '../utils/YogeshJoshi.jpeg'
 const Blog = ()=>{
   return (
     <div>
+       
       <div className='Nether'>
         <h1>Netherlands for Higher Education</h1>
         <img src={Neatherland} alt="Neatherland" className='Neatherland'/>
@@ -18,6 +20,12 @@ const Blog = ()=>{
         <p>Financially, studying in the Netherlands is more affordable compared to other popular destinations like the US or UK. Dutch universities offer various scholarships and grants to help international students manage their expenses. Moreover, the Dutch government allows international students to work part-time, providing an additional source of income.</p>
         <p>Overall, the Netherlands offers a unique blend of high-quality education, cultural diversity, and affordability. International students in the Netherlands gain valuable academic knowledge, practical skills, and a global perspective, all of which significantly enhance their career prospects and personal growth.</p>
       </div>
+      <div className='yas_exp' style={ { filter:'brightness(60%)', paddingTop:'20px',paddingBottom:'150px',backgroundSize:'cover',backgroundRepeat:'no-repeat',justifyContent:'center',alignContent:'center', backgroundImage:`url(${YogeshJoshi})` }}>
+            {/* <img src={firstimg} alt="firstimage" className='firstimage'/> */}
+            <p>Hi,</p>
+            <p>I am Mr. Yogesh Joshi, Today i want to share my international academic experience.</p>
+            <p>Living as an international student in Denmark has been a transformative journey, blending rigorous academic pursuits with practical work experience. Studying at a top-tier university, I immersed myself in innovative courses and engaged in cutting-edge research, all while adapting to the rich Danish culture and lifestyle. Balancing my studies, I worked part-time at a local cleaning company, which not only helped me support myself financially but also provided valuable insights into the Danish work ethic and community spirit. This dual role of student and worker enriched my experience, teaching me resilience, time management, and the importance of hard work, ultimately shaping a well-rounded, deeply rewarding chapter of my life.</p>
+        </div>
       <div className='pictures'>
       <img src={picture1} alt="picture1" className='picture1'/>
       <img src={picture2} alt="picture2" className='picture2'/>

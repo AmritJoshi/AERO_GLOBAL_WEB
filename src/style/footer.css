@@ -13,7 +13,10 @@
     justify-content: center;
     display: flex;
   }
-  
+  .SocialMedia a{
+    color: rgb(33, 37, 41);
+  }
+
   .Details{
     background-color:rgb(31, 38, 46);
     text-align:center;

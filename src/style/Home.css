@@ -144,10 +144,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.embed{
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .parma{
     margin-top: 10px;
@@ -183,10 +180,6 @@
         flex-direction: column;
         justify-content: center;
     }
-    .embed{
-        margin-left: 150px;
-        margin-top: 30px;
-    }
 }
 
 /* sm */
@@ -216,10 +209,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .embed{
-        margin-left: 70px;
-        margin-top: 30px;
     }
     .grad_page h2{
         width: 350px;
@@ -259,10 +248,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .embed{
-        margin-left: 20px;
-        margin-top: 30px;
     }
     .grad_page h2{
         width: 350px;

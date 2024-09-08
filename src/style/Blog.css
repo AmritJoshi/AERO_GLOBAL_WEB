@@ -36,6 +36,11 @@
     margin: 30px;
 }
 
+.yas_exp p{
+    font-size: 30px;
+    color: white;
+}
+
 /*The desktop-first pre-defined media queries:*/
 /* 2xl */
 @media (max-width: 1536px) {}
