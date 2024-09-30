@@ -140,7 +140,7 @@ const Home = ()=>{
         </ul>
         <ul>
         <li><strong>Netherland</strong></li>
-        <li>Puja Sapkota</li>
+        <li>Priya Sapkota</li>
         <li>22-53, Eindhoven, 5611 Netherland</li>
         <li>Email:- sapkotapuja34@gmail.com</li>
         <li>Phone:- +31 687918823</li>
