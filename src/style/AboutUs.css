@@ -53,6 +53,34 @@
     margin-left: 5px;
 }
 
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    gap: 2rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.portfolio-grid img{
+    width: 400px;
+    height: 400px;
+}
+.Team{
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.CEO_DES{
+    text-align: center;
+}
+.SConsultant_DES{
+    text-align: center;
+}
+.COO_DES{
+    text-align: center;
+}
+.AdHead_DES{
+    text-align: center;
+}
 /*The desktop-first pre-defined media queries:*/
 /* 2xl */
 @media (max-width: 1536px) {}
